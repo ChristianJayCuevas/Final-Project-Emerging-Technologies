@@ -47,7 +47,7 @@ if selected == "Home":
           capturing images of your retina using special cameras[4]. Then the assessment relies solely on the manual interpretation of the doctor,
           which can lead to human-error or can be time consuming.""")
           
-    st.markdown("""- The goal of this study is to create a model using CNN that can help with the early detection if the patient has diabetic retinopathy.  
+    st.markdown("""- The goal of this study is to create a model using CNN that can help with the early detection if the patient has diabetic retinopathy.
           This can help reduce time and significantly reduce any errors that may occur. We are using CNN because it can achieve state-of-the-art
           results and it is simple to use[5]
           """)
