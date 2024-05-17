@@ -43,20 +43,20 @@ if selected == "Home":
     st.markdown("""<hr style="height:10px;border:none;color:#EC4646;background-color:#EC4646;" /> """, unsafe_allow_html=True)
     st.markdown("## Aim of the :red[Study]")
     st.image("https://cdn.discordapp.com/attachments/961069393234767882/1240975794377986089/cataracta_consultation_lirema.png?ex=66488445&is=664732c5&hm=bc09a1bbce8e260269fc92226422b09a181d3aa12c8132ad7cabb90503fcf390&")
-    st.markdown("""- Early detection of diabetic retinopathy is essential to its treatment[3]. The diagnosis of the diabetic retinopathy is done by  
-          capturing images of your retina using special cameras[4]. Then the assessment relies solely on the manual interpretation of the doctor,  
+    st.markdown("""- Early detection of diabetic retinopathy is essential to its treatment[3]. The diagnosis of the diabetic retinopathy is done by
+          capturing images of your retina using special cameras[4]. Then the assessment relies solely on the manual interpretation of the doctor,
           which can lead to human-error or can be time consuming.""")
           
     st.markdown("""- The goal of this study is to create a model using CNN that can help with the early detection if the patient has diabetic retinopathy.  
-          This can help reduce time and significantly reduce any errors that may occur. We are using CNN because it can achieve state-of-the-art  
-          results and it is simple to use[5]  
+          This can help reduce time and significantly reduce any errors that may occur. We are using CNN because it can achieve state-of-the-art
+          results and it is simple to use[5]
           """)
 
     st.markdown("""<hr style="height:10px;border:none;color:#EC4646;background-color:#EC4646;" /> """, unsafe_allow_html=True)
 
     st.header("About the :red[Dataset]")
-    st.markdown(""" - The dataset that we have chosen is the diagnosis of diabetic retinopathy dataset from kaggle. This is a dataset that contains images of  
-            retina with and without Diabetic Retinopathy. The original dataset has a large amount of images, we just decided to get a part of it which are  
+    st.markdown(""" - The dataset that we have chosen is the diagnosis of diabetic retinopathy dataset from kaggle. This is a dataset that contains images of
+            retina with and without Diabetic Retinopathy. The original dataset has a large amount of images, we just decided to get a part of it which are
             the images of retina without DR and with DR.  """)
 
     st.markdown("""<hr style="height:10px;border:none;color:#EC4646;background-color:#EC4646;" /> """, unsafe_allow_html=True)
