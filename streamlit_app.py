@@ -31,6 +31,7 @@ if selected == "Home":
     st.markdown("## What is :red[Diabetic Retinopathy?]")
     st.image("https://cdn.discordapp.com/attachments/961069393234767882/1240567424408092694/illustration-showing-diabetic-retinopathy.png?ex=66485972&is=664707f2&hm=bb69f02c1c56173d950d5505a98fa2bd7c8174b47a537e6aa276cadcd746e6da&"
           , use_column_width = True)
+    
     st.markdown("""
           - Diabetic retinopathy is an eye condition of people with diabetes that can cause blindness or vision impairment [1]. 
           The prevalence of diabetic retinopathy is high among diabetic Filipino patients. 
@@ -43,6 +44,7 @@ if selected == "Home":
     st.markdown("""<hr style="height:10px;border:none;color:#EC4646;background-color:#EC4646;" /> """, unsafe_allow_html=True)
     st.markdown("## Aim of the :red[Study]")
     st.image("https://cdn.discordapp.com/attachments/961069393234767882/1240975794377986089/cataracta_consultation_lirema.png?ex=66488445&is=664732c5&hm=bc09a1bbce8e260269fc92226422b09a181d3aa12c8132ad7cabb90503fcf390&")
+    
     st.markdown("""- Early detection of diabetic retinopathy is essential to its treatment[3]. The diagnosis of the diabetic retinopathy is done by
           capturing images of your retina using special cameras[4]. Then the assessment relies solely on the manual interpretation of the doctor,
           which can lead to human-error or can be time consuming.""")
