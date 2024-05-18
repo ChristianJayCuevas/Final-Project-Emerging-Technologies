@@ -59,6 +59,15 @@ if selected == "Home":
             retina with and without Diabetic Retinopathy. The original dataset has a large amount of images, we just decided to get a part of it which are
             the images of retina without DR and with DR.  """)
 
+    image1DR = "https://cdn.discordapp.com/attachments/961069393234767882/1241003740035813406/00cb6555d108_png.rf.29cca170969c6e9918ef9b9209abef8e.jpg?ex=66489e4c&is=66474ccc&hm=03174074693ad13cc1ed360d9e62e1eeecbf1a361b74257dca2a97353b3ab406&"
+    image2NODR = "https://cdn.discordapp.com/attachments/961069393234767882/1241003897657753730/0ae2dd2e09ea_png.rf.a4faf61bd46dc2930c51b3db7dba12cd.jpg?ex=66489e71&is=66474cf1&hm=6865068c3033afb596cf34fdadc9a7014d14c67644965a2881689fd3c823069d&"
+    image3DR = "https://cdn.discordapp.com/attachments/961069393234767882/1241004684315983975/0f495d87656a_png.rf.707a2bb8a1223a714fcb88d67eb153c0.jpg?ex=66489f2d&is=66474dad&hm=12b8b9db28f22f7adfe6c320b7dc8c59b4cc8355adb570d25e246aa8aededf19&"
+    image4NODR = "https://cdn.discordapp.com/attachments/961069393234767882/1241004929326252042/0daddc45d832_png.rf.8ebf5e03827f9b859246c465ffcfe7f3.jpg?ex=66489f67&is=66474de7&hm=42275fe31e738c3811d7e5d7033b3bfaa10a35f7eb94884527c64a8cd8391fb3&"
+
+    list1 = ["Diabetic Retinopathy","Normal Retina","Diabetic Retinopathy","Normal Retina"]
+
+    st.image([image1DR, image2NODR, image3DR, image4NODR], use_column_width=False, caption = list1 )
+
     st.markdown("""<hr style="height:10px;border:none;color:#EC4646;background-color:#EC4646;" /> """, unsafe_allow_html=True)
 
     st.header("Trained :red[Model]" )
