@@ -90,7 +90,7 @@ if selected == "Home":
                     metrics=['accuracy'])'''
     st.code(code1, language = 'python')
 
-    st.markdown(""" - The model that we used is the code above, we used CNN because it is best suited for images. This is a model with 90.48% accuracy and 0.23 loss.
+    st.markdown(""" - The model that we used is the code above, we used CNN because it is best suited for images. This is a model with 93.07% accuracy and 0.23 loss.
                   It can be further improved by using a larger dataset and doing more image augmentation but since we have a limitation in the size of the model
                   we chose to keep it small.""")
 
