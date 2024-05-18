@@ -185,5 +185,5 @@ if selected == "About Us":
         with colr:
             st.write(' ')
 
-        st.markdown("<p style=text-align: center; color: red; style=font-size:10%;><small>Hello, I am Sean Julian S. Nicolas, a 3rd year BS Computer Engineering student.  I am in charge of deploying the model and designing the streamlit. I also helped in finalizing the trained model. I hope to expand my knwoledge and create meaningful project that can help in the field of technology.<small></p>", unsafe_allow_html=True)
+        st.markdown("<p style=text-align: center; color: red; style=font-size:10%;><small>Hello, I am Sean Julian S. Nicolas, a 3rd year BS Computer Engineering student.  I am in charge of deploying the model and designing the streamlit. I also helped in finalizing the trained model. I hope to expand my knowledge and create meaningful project that can help in the field of technology.<small></p>", unsafe_allow_html=True)
     st.markdown("""<hr style="height:10px;border:none;color:#EC4646;background-color:#EC4646;" /> """, unsafe_allow_html=True)
