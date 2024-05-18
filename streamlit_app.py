@@ -29,7 +29,7 @@ selected = option_menu(
 if selected == "Home":
     st.markdown("""<hr style="height:10px;border:none;color:#EC4646;background-color:#EC4646;" /> """, unsafe_allow_html=True)
     st.markdown("## What is :red[Diabetic Retinopathy?]")
-    st.image("https://cdn.discordapp.com/attachments/961069393234767882/1240567424408092694/illustration-showing-diabetic-retinopathy.png?ex=66485972&is=664707f2&hm=bb69f02c1c56173d950d5505a98fa2bd7c8174b47a537e6aa276cadcd746e6da&"
+    st.image("IMG1HOME.png"
           , use_column_width = True)
     
     st.markdown("""
