@@ -43,7 +43,7 @@ if selected == "Home":
 
     st.markdown("""<hr style="height:10px;border:none;color:#EC4646;background-color:#EC4646;" /> """, unsafe_allow_html=True)
     st.markdown("## Aim of the :red[Study]")
-    st.image("https://cdn.discordapp.com/attachments/961069393234767882/1240975794377986089/cataracta_consultation_lirema.png?ex=66488445&is=664732c5&hm=bc09a1bbce8e260269fc92226422b09a181d3aa12c8132ad7cabb90503fcf390&")
+    st.image("IMG2HOME.png")
     
     st.markdown("""- Early detection of diabetic retinopathy is essential to its treatment[3]. The diagnosis of the diabetic retinopathy is done by
           capturing images of your retina using special cameras[4]. Then the assessment relies solely on the manual interpretation of the doctor,
@@ -61,10 +61,9 @@ if selected == "Home":
             retina with and without Diabetic Retinopathy. The original dataset has a large amount of images, we just decided to get a part of it which are
             the images of retina without DR and with DR.  """)
 
-    image1DR = "https://cdn.discordapp.com/attachments/961069393234767882/1241003740035813406/00cb6555d108_png.rf.29cca170969c6e9918ef9b9209abef8e.jpg?ex=66489e4c&is=66474ccc&hm=03174074693ad13cc1ed360d9e62e1eeecbf1a361b74257dca2a97353b3ab406&"
-    image2NODR = "https://cdn.discordapp.com/attachments/961069393234767882/1241003897657753730/0ae2dd2e09ea_png.rf.a4faf61bd46dc2930c51b3db7dba12cd.jpg?ex=66489e71&is=66474cf1&hm=6865068c3033afb596cf34fdadc9a7014d14c67644965a2881689fd3c823069d&"
-    image3DR = "https://cdn.discordapp.com/attachments/961069393234767882/1241004684315983975/0f495d87656a_png.rf.707a2bb8a1223a714fcb88d67eb153c0.jpg?ex=66489f2d&is=66474dad&hm=12b8b9db28f22f7adfe6c320b7dc8c59b4cc8355adb570d25e246aa8aededf19&"
-    image4NODR = "https://cdn.discordapp.com/attachments/961069393234767882/1241004929326252042/0daddc45d832_png.rf.8ebf5e03827f9b859246c465ffcfe7f3.jpg?ex=66489f67&is=66474de7&hm=42275fe31e738c3811d7e5d7033b3bfaa10a35f7eb94884527c64a8cd8391fb3&"
+    image1DR = "IMG3HOMEDR.jpg"
+    image2NODR = "IMG4HOMENODR.jpg"
+    image3DR = "IMG5HOMEDR.jpg"
 
     list1 = ["Diabetic Retinopathy","Normal Retina","Diabetic Retinopathy"]
 
@@ -166,7 +165,7 @@ if selected == "About Us":
             st.write(' ')
 
         with colm:
-            st.image("https://cdn.discordapp.com/attachments/961069393234767882/1240936754912165918/image.png?ex=66485fe9&is=66470e69&hm=ee30e298caf453fa6d4e6d834e4029a70696b89bb0f691dbbcdb07788028ccfa&")
+            st.image("IMG7JAY.png")
 
         with colr:
             st.write(' ')
@@ -181,7 +180,7 @@ if selected == "About Us":
             st.write(' ')
 
         with colm:
-            st.image("https://cdn.discordapp.com/attachments/961069393234767882/1240936615627718716/image.png?ex=66485fc8&is=66470e48&hm=22887278886e5fb7ff4fa27975db13f204917b0295d3f0e937bbd013c1e8a0fd&")
+            st.image("IMG6SHAN.png")
 
         with colr:
             st.write(' ')
