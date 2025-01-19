@@ -30,7 +30,7 @@ if selected == "Home":
     st.markdown("""<hr style="height:10px;border:none;color:#EC4646;background-color:#EC4646;" /> """, unsafe_allow_html=True)
     st.markdown("## What is :red[Diabetic Retinopathy?]")
     st.image("IMG1HOME.png"
-          , use_column_width = True)
+          , use_container_width = True)
     
     st.markdown("""
           - Diabetic retinopathy is an eye condition of people with diabetes that can cause blindness or vision impairment [1]. 
@@ -67,7 +67,7 @@ if selected == "Home":
 
     list1 = ["Diabetic Retinopathy","Normal Retina","Diabetic Retinopathy"]
 
-    st.image([image1DR, image2NODR, image3DR], use_column_width=False, caption = list1 )
+    st.image([image1DR, image2NODR, image3DR], use_container_width=False, caption = list1 )
 
     st.markdown("""<hr style="height:10px;border:none;color:#EC4646;background-color:#EC4646;" /> """, unsafe_allow_html=True)
 
@@ -140,7 +140,7 @@ if selected == "Deep Learning Model":
         st.text("Please upload an image file")
     else:
         image = Image.open(file).convert("RGB")
-        st.image(image, use_column_width=True)
+        st.image(image, use_container_width=True)
         prediction = import_and_predict(image, model)
         if prediction is not None:
             class_names = ['Normal Retina', 'Diabetic Retinopathy']
